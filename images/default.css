@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#FFFFFF;
+	font-size:14px;
+	font-family:"Times New Roman", Times, serif;
+	margin:0;
+	padding:0;
+	line-height:1.2em;
+}
+img{
+	border:0;
+}
+a{
+	color:#0033FF;
+	text-decoration:none;
+}
+a:hover{
+	color: #0066FF;
+}
+
+input, textarea{
+	margin:0;
+	padding:0.3em 0.4em;
+}
+
+
+.mainBox{
+	padding:0;
+	margin:0 auto;
+	width:80%;
+	position:relative;
+}
+.clear{
+	clear:both;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:600;
+	padding:0.4em;
+	margin:0em;
+}
+h1{
+	font-size:36px;
+}
+h2{
+	font-size:24px;
+}
+h3{
+	font-size: 18px;
+}
+h4{
+	font-size: 16px;
+}
+h5{
+	font-size: 14px;
+}
+.header{
+	text-align:center;
+}
+.headerNavUl{
+	padding:0;
+	margin:2px 5px;
+}
+.headerNavUl li{
+	list-style:none;
+	display:inline-block;
+	margin:0;
+	padding:0.2em 0.4em;
+}
+
+.userInfoBox{
+	margin:0;
+	padding:0em;
+	font-size:14px;
+}
+.userInfoBox ul{
+	padding:0;
+	margin:0;
+}
+.userInfoBox li{
+	list-style:none;
+	margin:0 0.2em 0 0 ;
+	padding:0 0.4em 0 0;
+	display:inline-block;
+}
+
+.statusContainer{
+	margin:20px 0;
+}
+.status{
+	border:1px solid #f0f0f0;
+	background-color:#f0f0f0;
+	margin:0;
+	padding:1em 0.6em;
+	border-radius:4px;
+	line-height:1.6em;
+	font-size:18px;
+}
+.status:hover{
+	border:1px solid #e0e0e0;
+}
+
+.statusOperationsUL{
+	display:block;
+	margin:0;
+	padding:0;
+	text-align:right;
+}
+.statusOperationsUL li{
+	display:inline-block;
+	margin:0.2em;
+	padding:0.2em 0.6em;
+	border:1px solid #FFFFFF;
+	border-radius:4px;
+	font-weight:bold;
+}
+.statusOperationsUL li:hover{
+	border:1px solid #f0f0f0;
+	background-color:#f0f0f0;
+
+}
+
+.postUl{
+	font-size:14px;
+}
+.postUl li{
+	list-style:none;
+}
+
+.footer{
+	margin:0;
+	padding:2em;
+	text-align:center;
+}
+.page{
+	text-align:center;
+}
+.totalRecords{
+	text-align:right;
+}
+.statusUl{
+	margin:0.2em 2em;
+	padding:0;
+}
+.statusUl li{
+	margin:0;
+}
